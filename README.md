@@ -1,10 +1,5 @@
-Übersetzungstypen
-Textübersetzung
-Ausgangstext
-2888 / 5000
-Übersetzungsergebnisse
 # PayPal Transparent Checkout for OpenCart 2 and 3
-! [] (https://raw.githubusercontent.com/wiki/paypal/PayPal-PHP-SDK/images/homepage.jpg)
+https://raw.githubusercontent.com/wiki/paypal/PayPal-PHP-SDK/images/homepage.jpg
 
 The experience of a Transparent Checkout processed with the security of PayPal. Your customer makes the payment directly on your website, without redirection and without the need to open a PayPal account, using credit card data, which can be saved to speed up the payment process. payment on future purchases.
 
@@ -88,7 +83,3 @@ After completing the form, click on the ** Save ** button.
 If your question has not been answered here, please contact PayPal at 0800 047 4482.
 
 And if you need any technical support and / or believe you have encountered a problem with this module, visit our [technical support portal] (https://www.paypal-support.com/s/?language=pt_BR) and open a ticket detailing your problem in the "Contact Us" section.
-
-## Changelog
-
-To view the latest updates, access [** CHANGELOG.md **] (CHANGELOG.md). 
