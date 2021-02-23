@@ -1,43 +1,43 @@
-# Checkout Transparente PayPal para OpenCart 2 e 3
-![](https://raw.githubusercontent.com/wiki/paypal/PayPal-PHP-SDK/images/homepage.jpg)
+# PayPal Transparent Checkout for OpenCart 2 and 3
+! [] (https://raw.githubusercontent.com/wiki/paypal/PayPal-PHP-SDK/images/homepage.jpg)
 
-A experiência de um Checkout Transparente processado com a segurança do PayPal. Seu cliente efetua o pagamento diretamente no seu site, sem redirecionamento e sem a necessidade de abertura de uma conta PayPal, utilizando os dados cartão de crédito, que podem ser salvos para agilizar o pagamento em futuras compras.
+The experience of a Transparent Checkout processed with the security of PayPal. Your customer makes the payment directly on your website, without redirection and without the need to open a PayPal account, using credit card data, which can be saved to speed up the payment process. payment on future purchases.
 
 
-## Requisitos
+## Requirements
 
-Para o correto funcionamento das soluções, é necessário verificar se a sua loja e servidor suportam alguns recursos:
-1. Para o checkout transparente (PayPal Plus), a sua loja precisa ter suporte aos campos CPF (tipo Conta) e Número (tipo Endereço), portanto antes de ativar a solução garanta que a sua loja está devidamente configurada para suportar estes campos;
-2. O servidor precisa ter suporte à PHP 7.3 ou superior;
-3. O servidor precisa ter suporte à TLS 1.2 ou superior e HTTPS 1.1 [(Referência Oficial)](https://www.paypal.com/sg/webapps/mpp/tls-http-upgrade).
+For the correct functioning of the solutions, it is necessary to check if your store and server support some features:
+1. For transparent checkout (PayPal Plus), your store needs to support the CPF (Account type) and Number (Address type) fields, so before activating the solution, ensure that your store is properly configured to support these fields;
+2. The server must support PHP 7.3 or higher;
+3. The server must support TLS 1.2 or higher and HTTPS 1.1 [(Official Reference)] (https://www.paypal.com/sg/webapps/mpp/tls-http-upgrade).
 
-## Checkout Transparente (PayPal Plus)
+## Transparent Checkout (PayPal Plus)
 
-O Checkout Transparente está disponível apenas para contas PayPal cadastradas com CNPJ (Conta Empresa), caso a sua conta seja de pessoa física, você deve abrir uma conta PayPal de pessoa jurídica por este [link](https://www.paypal.com/bizsignup/).
+The Transparent Checkout is only available for PayPal accounts registered with CNPJ (Corporate Account), if your account is for an individual, you must open a PayPal account for a legal person through this [link] (https://www.paypal.com / bizsignup /).
 
-A solução requer aprovação comercial, entre em contato pelo 0800 721 6959 e solicite agora mesmo.
+The solution requires commercial approval, contact 0800 721 6959 and request now.
 
-***O Checkout Transparente só irá funcionar caso tenha sido aprovado pelo PayPal.**
+*** The Transparent Checkout will only work if it has been approved by PayPal. **
 
-## Compatibilidade
+## Compatibility
 
-Este módulo é compatível com OpenCart versões 2.0.1.1 até 3.0.3.6. 
+This module is compatible with OpenCart versions 2.0.1.1 to 3.0.3.6.
 
-## Instalação
+## Installation
 
-1. Faça o download do módulo compatível com a sua versão do OpenCart, depois acesse a administração da sua loja;
-2. Vá ao menu **Extensões→Instalador**, clique no botão "**Upload**", localize o arquivo que você baixou, e aguarde a conclusão da instalação automática;
-3. Vá ao menu **Extensões→Modificações** e clique no botão "**Atualizar**";
-4. No OpenCart 3, vá ao menu **Painel de controle**, no lado direito da tela abaixo do botão "**Sair**", clique no botão na cor azul com o desenho de uma engrenagem branca nele, no modal clique nos dois botões na cor laranja que estão dentro da coluna "**Ação**" para atualizar o cache do tema;
-5. Vá ao menu **Extensões→Pagamentos** (nas versões 2.3 ou superior vá ao menu **Extensões→Extensões** e filtre por **Pagamentos**), localize a extensão "**PayPal Plus**", clique no botão "**Instalar**", depois no botão "**Editar**", preencha os campos e clique no botão "**Salvar**".
+1. Download the module compatible with your version of OpenCart, then access your store administration;
+2. Go to the menu ** Extensions → Installer **, click on the "** Upload **" button, locate the file you downloaded, and wait for the automatic installation to complete;
+3. Go to the menu ** Extensions → Modifications ** and click on the "** Update **" button;
+4. In OpenCart 3, go to the menu ** Control panel **, on the right side of the screen under the button "** Exit **", click on the button in blue with the design of a white gear on it, in modal click on the two orange buttons inside the "** Action **" column to update the theme cache;
+5. Go to the menu ** Extensions → Payments ** (in versions 2.3 or higher go to the menu ** Extensions → Extensions ** and filter for ** Payments **), find the extension "** PayPal Plus **", click the "** Install **" button, then the "** Edit **" button, fill in the fields and click the "** Save **" button.
 
-## Configuração
-### - Credenciais de API
-Para configurar as soluções PayPal, você deverá gerar as credenciais de API do tipo REST, no caso o Client ID e o Secret ID.
+## Settings
+### - API Credentials
+To configure PayPal solutions, you must generate REST-type API credentials, in this case Client ID and Secret ID.
 
-Para obtê-las siga este passo-a-passo:
+To obtain them follow this step-by-step:
                 
-1. Efetuar o login com sua conta PayPal em https://developer.paypal.com e clique no link na parte superior "**Dashboard**";
+1. Log in with your PayPal account at https://developer.paypal.com and click on the link at the top "** Dashboard **"; 
 2. Clique em "**My Apps & Credentials**";
 3. Abaixo de "**Rest API apps**" clique em "**Create App**";
 4. Em seguida, insira o termo "**ppplus**" no campo "**App Name**" e clique em "**Create App**";
