@@ -1,3 +1,8 @@
+Übersetzungstypen
+Textübersetzung
+Ausgangstext
+2888 / 5000
+Übersetzungsergebnisse
 # PayPal Transparent Checkout for OpenCart 2 and 3
 ! [] (https://raw.githubusercontent.com/wiki/paypal/PayPal-PHP-SDK/images/homepage.jpg)
 
@@ -38,52 +43,52 @@ To configure PayPal solutions, you must generate REST-type API credentials, in t
 To obtain them follow this step-by-step:
                 
 1. Log in with your PayPal account at https://developer.paypal.com and click on the link at the top "** Dashboard **"; 
-2. Clique em "**My Apps & Credentials**";
-3. Abaixo de "**Rest API apps**" clique em "**Create App**";
-4. Em seguida, insira o termo "**ppplus**" no campo "**App Name**" e clique em "**Create App**";
-5. No canto superior direito da tela, clique em "**Live**";
-6. Você deve copiar os códigos que aparecerem em "**Client ID**" e em "**Secret**" (para visualizar o "Secret" será necessário clicar em "**Show**") e colar estes códigos na página de configuração da solução que irá utilizar. 
+2. Click on "** My Apps & Credentials **";
+3. Under "** Rest API apps **" click "** Create App **";
+4. Then enter the term "** ppplus **" in the "** App Name **" field and click "** Create App **";
+5. In the upper right corner of the screen, click "** Live **";
+6. You must copy the codes that appear in "** Client ID **" and in "** Secret **" (to view the "Secret" it will be necessary to click "** Show **") and paste these codes on the configuration page of the solution you will use.
 
-### - Solução
+### - Solution
 
-Para o Checkout Transparente funcionar, sua loja precisará ter cadastrado os campos CPF (tipo Conta) e Número (tipo Endereço).
+For Transparent Checkout to work, your store will need to have registered the CPF (Account type) and Number (Address type) fields.
 
-Para cadastrá-los siga este passo-a-passo dentro do painel administrativo do seu OpenCart:
+To register them, follow this step-by-step within your OpenCart administrative panel:
 
-Vá ao menu **Clientes→Personalizar cadastro**, e clique no botão **Novo**.
+Go to the menu ** Customers → Customize registration **, and click on the ** New ** button.
 
-Para cadastrar o **CPF**, preencha o formulário com as informações abaixo:
+To register the ** CPF **, complete the form with the information below:
 
-| Campo | Valor |
+| Field | Value |
 | -------- | ----- |
-| Nome do campo | CPF |
-| Localização | Conta |
-| Tipo de campo | Texto em uma linha |
-| Tipo de cliente | Marque os tipos de clientes que verão o campo durante o cadastro |
-| Tipos obrigatórios | Marque os tipos de clientes que terão o campo como preenchimento obrigatório |
-| Situação | Habilitado |
+| Field name | CPF |
+| Location | Account |
+| Field type | Text on a line |
+| Customer type | Mark the types of customers that will see the field during registration |
+| Mandatory types | Check the types of customers that will have the field as mandatory |
+| Situation | Enabled |
 
-Após preencher o formulário, clique no botão **Salvar**.
+After completing the form, click on the ** Save ** button.
 
-Para cadastrar o **Número**, clique novamente no botão **Novo** e preencha o formulário com as informações abaixo:
+To register the ** Number **, click the ** New ** button again and fill out the form with the information below:
 
-| Campo | Valor |
+| Field | Value |
 | -------- | ----- |
-| Nome do campo | Número |
-| Localização | Endereço |
-| Tipo de campo | Texto em uma linha |
-| Tipo de cliente | Marque os tipos de clientes que verão o durante o cadastro |
-| Tipos obrigatórios | Marque os tipos de clientes que terão o campo como preenchimento obrigatório |
-| Situação | Habilitado |
+| Field name | Number |
+| Location | Address |
+| Field type | Text on a line |
+| Customer type | Check the types of customers that will see you during registration |
+| Mandatory types | Check the types of customers that will have the field as mandatory |
+| Situation | Enabled |
 
-Após preencher o formulário, clique no botão **Salvar**.
+After completing the form, click on the ** Save ** button.
 
-## Dúvidas/Suporte
+## Questions / Support
 
-Caso a sua dúvida não tenha sido respondida aqui, entre em contato com o PayPal pelo número 0800 047 4482.
+If your question has not been answered here, please contact PayPal at 0800 047 4482.
 
-E caso necessite de algum suporte técnico e/ou acredita ter encontrado algum problema com este módulo acesse o nosso [portal de suporte técnico](https://www.paypal-support.com/s/?language=pt_BR) e abra um ticket detalhando o seu problema na seção "Fale Conosco".
+And if you need any technical support and / or believe you have encountered a problem with this module, visit our [technical support portal] (https://www.paypal-support.com/s/?language=pt_BR) and open a ticket detailing your problem in the "Contact Us" section.
 
 ## Changelog
 
-Para visulizar as últimas atualizações acesse o [**CHANGELOG.md**](CHANGELOG.md).
+To view the latest updates, access [** CHANGELOG.md **] (CHANGELOG.md). 
